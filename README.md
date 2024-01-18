@@ -14,6 +14,9 @@ git clone https://github.com/VenueYounk/TestTaskGetInfo.git
 
 ```bash
 docker build -t discord_bot .
+```
+
+```bash
 docker run -d discord_bot
 ```
 

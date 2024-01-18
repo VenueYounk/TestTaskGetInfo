@@ -1,10 +1,13 @@
 import vk
+from dotenv import load_dotenv
 import os, re
 from urllib.parse import urlparse
 from .errors import InvalidLink, PageNotFound
 import requests
 from html import unescape
 from datetime import datetime
+
+load_dotenv()
 
 
 class VkDataExtractor:

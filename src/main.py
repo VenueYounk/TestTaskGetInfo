@@ -2,9 +2,11 @@ import disnake
 from vk_helper import VkDataExtractor, errors
 
 from disnake.ext import commands
-
+from dotenv import load_dotenv
 
 import os
+
+load_dotenv()
 
 
 TOKEN = os.getenv("DISCORD_BOT_TOKEN")

@@ -6,11 +6,14 @@
 
 ## Установка
 
+
 ```bash
 git clone https://github.com/VenueYounk/TestTaskGetInfo.git
 ```
 
 Создать файл .env и указать переменные окружения.
+
+## Запуск
 
 ```bash
 docker build -t discord_bot .
@@ -19,6 +22,10 @@ docker build -t discord_bot .
 ```bash
 docker run -d discord_bot
 ```
+
+
+
+У бота должны быть все разрешения!
 
 ## Использование
 
